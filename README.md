@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://hoppscotch.io">
     <img
-      src="https://avatars.githubusercontent.com/u/56705483"
+      src="![diamond_shovel](https://github.com/user-attachments/assets/df88333b-06f7-4f88-b781-00d1ad4d453e)"
       alt="Hoppscotch"
       height="64"
     />
