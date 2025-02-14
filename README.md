@@ -34,13 +34,11 @@
   <br />
 
   <p>
-    <a href="https://hoppscotch.io">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./packages/hoppscotch-common/public/images/banner-dark.png">
-        <source media="(prefers-color-scheme: light)" srcset="./packages/hoppscotch-common/public/images/banner-light.png">
-        <img alt="Hoppscotch" src="./packages/hoppscotch-common/public/images/banner-dark.png">
-      </picture>
-    </a>
+    <img
+      src="./img/task.jpg"
+      alt="shovel"
+      height="500"
+    />
   </p>
 </div>
 
@@ -49,7 +47,7 @@
 
 #### **联系我们**
 
-[![Chat on Discord](https://img.shields.io/badge/chat-Discord-7289DA?logo=discord)](https://hoppscotch.io/discord) [![Chat on Telegram](https://img.shields.io/badge/chat-Telegram-2CA5E0?logo=telegram)](https://hoppscotch.io/telegram) [![Discuss on GitHub](https://img.shields.io/badge/discussions-GitHub-333333?logo=github)](https://github.com/hoppscotch/hoppscotch/discussions)
+[![Group_Qrcode](https://img.shields.io/badge/group-wecaht-7289DA?logo=wechat)](https://mp.weixin.qq.com/s/RN0k2sfdElzUt9rsfVo7RQ) [![Chat on Telegram](https://img.shields.io/badge/chat-Telegram-2CA5E0?logo=telegram)](https://hoppscotch.io/telegram) [![Discuss on GitHub](https://img.shields.io/badge/discussions-GitHub-333333?logo=github)](https://github.com/hoppscotch/hoppscotch/discussions)
 
 ### **Features**
 
