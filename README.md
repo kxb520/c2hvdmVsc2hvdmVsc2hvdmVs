@@ -1,7 +1,7 @@
 <div>
 <a href="https://www.hscsec.cn">
     <img
-      src=""
+      src="./img/favicon.ico"
       alt="shovel"
       height="64"
     />
