@@ -42,7 +42,7 @@
 
 ### 🔍 重新定义企业资产管理范式
 
-**Shovel** 是一款面向现代企业安全团队的开源资产测绘平台。通过融合主被动扫描引擎、多模态数据关联分析和智能风险评估模型，我们致力于为企业提供更优雅的资产治理解决方案。
+**Shovel** 是一款面向现代企业安全团队的开源资产测绘平台。通过融合主被动扫描引擎、多模态数据关联分析和智能风险评估模型，我们致力于解放安全行业重复劳动者的双手、为企业提供更优雅的资产治理解决方案。
 
 ------
 
@@ -65,7 +65,7 @@
 | 特性维度     | 传统方案         | SHOVEL 解决方案        | 核心优势体现                             |
 | ------------ | ---------------- | ---------------------- | ---------------------------------------- |
 | **资产发现** | ❌ 被动式人工录入 | ✅ 主动+被动自动化发现  | 更全面：多平台资产自动发现，资产面覆盖完全 |
-| **分析资产** | ❌ 展示冰冷图表   | ✅ 热力图展示资产位置     | 更高效：自动构建资产关系网络             |
+| **分析资产** | ❌ 缺乏系统管理，只关注单次任务   | ✅ 资产自动指纹分类，系统性管理资产组     | 更高效：自动构建资产关系网络             |
 | **风险检测** | ❌ POC指纹更新缓慢   | ✅ 超多POC指纹库实时更新 | 更强大：及时跟进，铲除隐患                 |
 | **扩展能力** | ❌ 封闭式系统     | ✅ 开放式插件架构       | 更自由：API+插件灵活扩展                 |
 | **架构设计** | ❌ 单体架构       | ✅ 核心与中间件分离架构 | 更灵活：支持分布式/边缘部署              |
@@ -73,26 +73,34 @@
 
 ### ⚡ 快速部署
 
+#### 一键部署
+```
+待完善
+```
+
+#### 镜像部署
 ```
 待完善
 ```
 
 
 
-
 ### 🧩 插件生态系统
 
-#### 官方插件集（持续更新）
+#### 官方基础插件集（持续更新）
+
 
 | 插件名称                | 功能描述                                                                 | 标签                                                                 |
 |-------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
-| **Fingerprinter**       | 根据任务中的URL信息进行CMS指纹识别                                       | `info-collecting`, `collector`, `discovery`, `identification`, `CMS` |
-| **Nmapper**             | 根据任务中的Host信息，使用Nmap扫描器进行端口探测并识别服务               | `info-collecting`, `collector`, `network`, `nmap`, `port`, `discovery`, `CIDR` |
-| **Fofa_Mapper**         | 根据任务中的域名信息，使用FOFA进行信息收集                               | `info-collecting`, `collector`, `domain`, `FOFA`                     |
-| **Http_Port_Visitor**   | 根据任务中的开放端口信息，进行相关Web服务的信息收集                      | `httpx`, `info-collecting`, `collector`, `ports`, `http`             |
-| **Company_Investigator**| 根据任务中的公司/集团名进行ICP备案信息收集                               | `info-collecting`, `collector`, `company`, `enscan`, `unstable`      |
-| **Domain_Seeker**       | 根据任务中的域名信息，进行子域名信息收集                                 | `info-collecting`, `collector`, `website`, `discovery`, `domain`, `DNS`, `amass` |
-| **Nuclei_Reactor**      | 根据任务中的URL信息，使用Nuclei扫描器进行漏洞检测                        | `vulnerability`, `detection`, `nuclei`, `exploit`, `CVE`             |
+| **fingerprinter**       | 根据任务中的URL信息进行CMS指纹识别                                       | `info-collecting`, `collector`, `discovery`, `identification`, `CMS` |
+| **nmapper**             | 根据任务中的Host信息，使用Nmap扫描器进行端口探测并识别服务               | `info-collecting`, `collector`, `network`, `nmap`, `port`, `discovery`, `CIDR` |
+| **fofa_mapper**         | 根据任务中的域名信息，使用FOFA进行信息收集                               | `info-collecting`, `collector`, `domain`, `FOFA`                     |
+| **http_port_visitor**   | 根据任务中的开放端口信息，进行相关Web服务的信息收集                      | `httpx`, `info-collecting`, `collector`, `ports`, `http`             |
+| **company_Investigator**| 根据任务中的公司/集团名进行ICP备案信息收集                               | `info-collecting`, `collector`, `company`, `enscan`, `unstable`      |
+| **domain_Seeker**       | 根据任务中的域名信息，进行子域名信息收集                                 | `info-collecting`, `collector`, `website`, `discovery`, `domain`, `DNS`, `amass` |
+| **nuclei_Reactor**      | 根据任务中的URL信息，使用Nuclei扫描器进行漏洞检测                        | `vulnerability`, `detection`, `nuclei`, `exploit`, `CVE`             |
+
+* 插件仓库: 待完善
 
 ---
 
@@ -122,8 +130,17 @@
 - **插件需求**：如果你有新的插件需求，欢迎在[讨论区](https://github.com/your-repo/shovel/discussions)提出
 
 ---
+
+## 🎉 鸣谢
+
+- https://github.com/owasp-amass/amass
+- https://github.com/wgpsec/ENScan_GO
+- https://github.com/projectdiscovery/nuclei
+- https://github.com/antvis/L7
+
+---
 📌 法律声明：本工具仅限合法授权测试使用，开发者不对滥用行为负责
-📧 商务合作：xxxxxx@hscsec.cn | 🌐 官网：https://www.hscsec.cn
+📧 商务合作：shovel@hscsec.cn | 🌐 官网：https://www.hscsec.cn
 
 
 让我们一起打造更强大的Shovel插件生态！🚀
