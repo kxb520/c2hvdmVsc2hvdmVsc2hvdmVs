@@ -34,15 +34,8 @@
   </p>
 </div>
 
-  <br />
+<img src="./img/shovel.jpg?raw=true" alt="shovel" style="width: 100%;">
 
-  <p>
-    <img
-      src="./img/shovel.jpg"
-      alt="shovel"
-      height="500"
-    />
-  </p>
 </div>
 
 
