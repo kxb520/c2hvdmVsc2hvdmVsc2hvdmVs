@@ -17,12 +17,15 @@
     <a href="#-欢迎贡献插件">🤝 参与贡献</a>
   </p>
 
-[![Built with React Router](https://img.shields.io/badge/Built_with-React_Router-FF4154?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
-[![Designed with Ant Design](https://img.shields.io/badge/Designed_with-Ant_Design-1890FF?style=for-the-badge&logo=ant-design&logoColor=white)](https://ant.design/)
-[![Mapped with MapLibre GL JS](https://img.shields.io/badge/Mapped_with-MapLibre_GL_JS-4264FB?style=for-the-badge&logo=mapbox&logoColor=white)](https://maplibre.org/)
-[![Powered by Hammer.js](https://img.shields.io/badge/Powered_by-Hammer.js-FFCA28?style=for-the-badge&logo=javascript&logoColor=black)](https://hammerjs.github.io/)
-[![Served by Nginx](https://img.shields.io/badge/Served_by-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://nginx.org/)
-
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Ant Design](https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=ant-design&logoColor=white)](https://ant.design/)
+[![L7Map](https://img.shields.io/badge/L7Map-1A73E8?style=for-the-badge&logo=mapbox&logoColor=white)](https://l7.antv.antgroup.com/)
+[![Nmap](https://img.shields.io/badge/Nmap-FF6600?style=for-the-badge&logo=gnu&logoColor=white)](https://nmap.org/)
+[![httpx](https://img.shields.io/badge/httpx-00B894?style=for-the-badge&logo=curl&logoColor=white)](https://github.com/projectdiscovery/httpx)
+[![nuclei](https://img.shields.io/badge/nuclei-4B32C3?style=for-the-badge&logo=nuclio&logoColor=white)](https://nuclei.projectdiscovery.io/)
   <p>
     <sub>
       Powered with ❤️ by
