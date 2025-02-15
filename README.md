@@ -45,260 +45,57 @@
 
 
 
-#### **联系我们**
+### 🔍 重新定义企业资产管理范式
 
-[![Group_Qrcode](https://img.shields.io/badge/group-wecaht-7289DA?logo=wechat)](https://mp.weixin.qq.com/s/RN0k2sfdElzUt9rsfVo7RQ) [![Chat on Telegram](https://img.shields.io/badge/chat-Telegram-2CA5E0?logo=telegram)](https://hoppscotch.io/telegram) [![Discuss on GitHub](https://img.shields.io/badge/discussions-GitHub-333333?logo=github)](https://github.com/hoppscotch/hoppscotch/discussions)
+**Shovel** 是一款面向现代企业安全团队的开源资产测绘平台。通过融合主被动扫描引擎、多模态数据关联分析和智能风险评估模型，我们致力于为企业提供更优雅的资产治理解决方案。
 
-### **Features**
+------
 
-❤️ **Lightweight:** Crafted with minimalistic UI design.
+### 🚀 核心优势
 
-⚡️ **Fast:** Send requests and get responses in real time.
+- **多维资产画像**
+  深度整合CMDB/云平台/漏洞库数据源，构建包含2000+指纹规则的资产知识图谱，智能生成空间资产图谱。
+- **风险决策中枢**
+  内建漏洞优先级算法（CVSS 3.1/EPSS双模评估），结合资产业务价值生成动态风险矩阵。
+- **开放架构设计**
+  提供标准化OpenAPI和插件API，可实现与主流SIEM/SOAR平台的无缝对接
+- **高扩展性插件系统**
+  内置高性能管道式插件系统，可灵活地对执行逻辑树进行节点的增删改查，快速将工作流落地。
+- **核心 & 中间层分离式架构**
+  分离式架构支持灵活分层部署，可快速实现分布式、链式及边缘设备等多种运行模式。
 
-🗄️ **HTTP Methods:** Request methods define the type of action you are requesting to be performed.
+### ⚡ 快速部署
 
-- `GET` - Requests retrieve resource information
-- `POST` - The server creates a new entry in a database
-- `PUT` - Updates an existing resource
-- `PATCH` - Very similar to `PUT` but makes a partial update on a resource
-- `DELETE` - Deletes resource or related component
-- `HEAD` - Retrieve response headers identical to those of a GET request, but without the response body.
-- `CONNECT` - Establishes a tunnel to the server identified by the target resource
-- `OPTIONS` - Describe the communication options for the target resource
-- `TRACE` - Performs a message loop-back test along the path to the target resource
-- `<custom>` - Some APIs use custom request methods such as `LIST`. Type in your custom methods.
+```
+# 使用Docker-Compose启动标准集群
+git clone https://github.com/your-repo/shovel.git && cd shovel/deploy
+docker-compose -f standalone.yml up -d
 
-🌈 **Theming:** Customizable combinations for background, foreground, and accent colors — [customize now](https://hoppscotch.io/settings).
+# 访问管理界面
+echo "控制台地址: http://$(curl -s ifconfig.me):8000"
+```
 
-- Choose a theme: System preference, Light, Dark, and Black
-- Choose accent colors: Green, Teal, Blue, Indigo, Purple, Yellow, Orange, Red, and Pink
-- Distraction-free Zen mode
+[![集成演示](https://img.shields.io/badge/-%E5%9C%A8%E7%BA%BF%E6%BC%94%E7%A4%BA%E7%B3%BB%E7%BB%9F-blue)](https://demo.shovel.com/)
+*默认管理员账号：[admin@shovel.local](mailto:admin@shovel.local) / shovel_2024*
 
-_Customized themes are synced with your cloud/local session._
 
-🔥 **PWA:** Install as a [Progressive Web App](https://web.dev/progressive-web-apps) on your device.
 
-- Instant loading with Service Workers
-- Offline support
-- Low RAM/memory and CPU usage
-- Add to Home Screen
-- Desktop PWA
+### 🧩 扩展生态
 
-🚀 **Request:** Retrieve response from endpoint instantly.
+我们提供以下扩展能力：
 
-1. Choose `method`
-2. Enter `URL`
-3. Send
+| 模块类型     | 开发示例              | 应用场景         |
+| :----------- | :-------------------- | :--------------- |
+| 扫描插件     | GitHub监控插件        | 代码仓库资产发现 |
+| 解析器       | Shodan数据解析器      | 互联网暴露面分析 |
+| 处置动作     | Jira漏洞工单自动创建  | 漏洞闭环管理     |
+| 数据源适配器 | AWS Inspector数据对接 | 云原生资产治理   |
+ddd
+### 🌱 开源生态建设
 
-- Copy/share public "Share URL"
-- Generate/copy request code snippets for 10+ languages and frameworks
-- Import `cURL`
-- Label requests
+我们相信安全需要共同智慧：
 
-🔌 **WebSocket:** Establish full-duplex communication channels over a single TCP connection.
+- 代码提交遵循 [Commitizen规范](https://commitizen-tools.github.io/commitizen/)
+- 使用ESLint+Prettier维护代码风格一致性
 
-📡 **Server-Sent Events:** Receive a stream of updates from a server over an HTTP connection without resorting to polling.
-
-🌩 **Socket.IO:** Send and Receive data with the SocketIO server.
-
-🦟 **MQTT:** Subscribe and Publish to topics of an MQTT Broker.
-
-🔮 **GraphQL:** GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
-
-- Set endpoint and get schema
-- Multi-column docs
-- Set custom request headers
-- Query schema
-- Get query response
-
-🔐 **Authorization:** Allows to identify the end-user.
-
-- None
-- Basic
-- Bearer Token
-- OAuth 2.0
-- OIDC Access Token/PKCE
-
-📢 **Headers:** Describes the format the body of your request is being sent in.
-
-📫 **Parameters:** Use request parameters to set varying parts in simulated requests.
-
-📃 **Request Body:** Used to send and receive data via the REST API.
-
-- Set `Content Type`
-- FormData, JSON, and many more
-- Toggle between key-value and RAW input parameter list
-
-📮 **Response:** Contains the status line, headers, and the message/response body.
-
-- Copy the response to the clipboard
-- Download the response as a file
-- View response headers
-- View raw and preview HTML, image, JSON, and XML responses
-
-⏰ **History:** Request entries are synced with your cloud/local session storage.
-
-📁 **Collections:** Keep your API requests organized with collections and folders. Reuse them with a single click.
-
-- Unlimited collections, folders, and requests
-- Nested folders
-- Export and import as a file or GitHub gist
-
-_Collections are synced with your cloud/local session storage._
-
-📜 **Pre-Request Scripts:** Snippets of code associated with a request that is executed before the request is sent.
-
-- Set environment variables
-- Include timestamp in the request headers
-- Send a random alphanumeric string in the URL parameters
-- Any JavaScript functions
-
-👨‍👩‍👧‍👦 **Teams:** Helps you collaborate across your teams to design, develop, and test APIs faster.
-
-- Create unlimited teams
-- Create unlimited shared collections
-- Create unlimited team members
-- Role-based access control
-- Cloud sync
-- Multiple devices
-
-👥 **Workspaces:** Organize your personal and team collections environments into workspaces. Easily switch between workspaces to manage multiple projects.
-
-- Create unlimited workspaces
-- Switch between personal and team workspaces
-
-⌨️ **Keyboard Shortcuts:** Optimized for efficiency.
-
-> **[Read our documentation on Keyboard Shortcuts](https://docs.hoppscotch.io/documentation/features/shortcuts)**
-
-🌐 **Proxy:** Enable Proxy Mode from Settings to access blocked APIs.
-
-- Hide your IP address
-- Fixes [`CORS`](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (Cross-Origin Resource Sharing) issues
-- Access APIs served in non-HTTPS (`http://`) endpoints
-- Use your Proxy URL
-
-_Official proxy server is hosted by Hoppscotch - **[GitHub](https://github.com/hoppscotch/proxyscotch)** - **[Privacy Policy](https://docs.hoppscotch.io/support/privacy)**._
-
-🌎 **i18n:** Experience the app in your language.
-
-Help us to translate Hoppscotch. Please read [`TRANSLATIONS`](TRANSLATIONS.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md) and the process for submitting pull requests to us.
-
-☁️ **Auth + Sync:** Sign in and sync your data in real-time across all your devices.
-
-**Sign in with:**
-
-- GitHub
-- Google
-- Microsoft
-- Email
-- SSO (Single Sign-On)[^EE]
-
-**🔄 Synchronize your data:** Handoff to continue tasks on your other devices.
-
-- Workspaces
-- History
-- Collections
-- Environments
-- Settings
-
-✅ **Post-Request Tests:** Write tests associated with a request that is executed after the request's response.
-
-- Check the status code as an integer
-- Filter response headers
-- Parse the response data
-- Set environment variables
-- Write JavaScript code
-
-🌱 **Environments:** Environment variables allow you to store and reuse values in your requests and scripts.
-
-- Unlimited environments and variables
-- Initialize through the pre-request script
-- Export as / import from GitHub gist
-
-<details>
-  <summary><i>Use-cases</i></summary>
-
----
-
-- By storing a value in a variable, you can reference it throughout your request section
-- If you need to update the value, you only have to change it in one place
-- Using variables increases your ability to work efficiently and minimizes the likelihood of error
-
----
-
-</details>
-
-🚚 **Bulk Edit:** Edit key-value pairs in bulk.
-
-- Entries are separated by newline
-- Keys and values are separated by `:`
-- Prepend `#` to any row you want to add but keep disabled
-
-🎛️ **Admin dashboard:** Manage your team and invite members.
-
-- Insights
-- Manage users
-- Manage teams
-
-📦 **Add-ons:** Official add-ons for hoppscotch.
-
-- **[Hoppscotch CLI](https://github.com/hoppscotch/hoppscotch/tree/main/packages/hoppscotch-cli)** - Command-line interface for Hoppscotch.
-
-- **[Proxy](https://github.com/hoppscotch/proxyscotch)** - A simple proxy server created for Hoppscotch.
-
-- **[Browser Extensions](https://github.com/hoppscotch/hoppscotch-extension)** - Browser extensions that enhance your Hoppscotch experience.
-
-  [![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_16x16.png) **Firefox**](https://addons.mozilla.org/en-US/firefox/addon/hoppscotch) &nbsp;|&nbsp; [![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_16x16.png) **Chrome**](https://chrome.google.com/webstore/detail/hoppscotch-extension-for-c/amknoiejhlmhancpahfcfcfhllgkpbld)
-
-  > **Extensions fix `CORS` issues.**
-
-_Add-ons are developed and maintained under **[Hoppscotch Organization](https://github.com/hoppscotch)**._
-
-**For a complete list of features, please read our [documentation](https://docs.hoppscotch.io).**
-
-## **Demo**
-
-[hoppscotch.io](https://hoppscotch.io)
-
-## **Usage**
-
-1. Provide your API endpoint in the URL field
-2. Click "Send" to simulate the request
-3. View the response
-
-## **Developing**
-
-Follow our [self-hosting documentation](https://docs.hoppscotch.io/documentation/self-host/getting-started) to get started with the development environment.
-
-## **Contributing**
-
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/hoppscotch/hoppscotch/compare).
-
-Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
-
-## **Continuous Integration**
-
-We use [GitHub Actions](https://github.com/features/actions) for continuous integration. Check out our [build workflows](https://github.com/hoppscotch/hoppscotch/actions).
-
-## **Changelog**
-
-See the [`CHANGELOG`](CHANGELOG.md) file for details.
-
-## **Authors**
-
-This project owes its existence to the collective efforts of all those who contribute — [contribute now](CONTRIBUTING.md).
-
-<div align="center">
-  <a href="https://github.com/hoppscotch/hoppscotch/graphs/contributors">
-    <img src="https://opencollective.com/hoppscotch/contributors.svg?width=840&button=false"
-      alt="Contributors"
-      width="100%" />
-  </a>
-</div>
-
-## **License**
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) — see the [`LICENSE`](LICENSE) file for details.
-
-[^EE]: Enterprise edition feature. [Learn more](https://docs.hoppscotch.io/documentation/self-host/getting-started).
+欢迎通过[讨论区](https://github.com/your-repo/shovel/discussions)参与架构设计讨论，年度贡献者将受邀加入核心开发者小组。
