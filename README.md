@@ -17,12 +17,11 @@
     <a href="#-贡献指南">🤝 参与贡献</a>
   </p>
 
-[![Made with React Router](https://img.shields.io/badge/Made%20with-React%20Router-FF4B2B?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
-[![Made with Ant Design](https://img.shields.io/badge/Made%20with-Ant%20Design-0170FE?style=for-the-badge&logo=ant-design&logoColor=white)](https://ant.design/)
-[![Made with MapLibre GL JS](https://img.shields.io/badge/Made%20with-MapLibre%20GL%20JS-1A73E8?style=for-the-badge&logo=mapbox&logoColor=white)](https://maplibre.org/)
-[![Made with Hammer.js](https://img.shields.io/badge/Made%20with-Hammer.js-FCA121?style=for-the-badge&logo=javascript&logoColor=black)](https://hammerjs.github.io/)
-[![Powered by Nginx](https://img.shields.io/badge/Powered%20by-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://nginx.org/)
-
+[![Built with React Router](https://img.shields.io/badge/Built_with-React_Router-FF4154?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
+[![Designed with Ant Design](https://img.shields.io/badge/Designed_with-Ant_Design-1890FF?style=for-the-badge&logo=ant-design&logoColor=white)](https://ant.design/)
+[![Mapped with MapLibre GL JS](https://img.shields.io/badge/Mapped_with-MapLibre_GL_JS-4264FB?style=for-the-badge&logo=mapbox&logoColor=white)](https://maplibre.org/)
+[![Powered by Hammer.js](https://img.shields.io/badge/Powered_by-Hammer.js-FFCA28?style=for-the-badge&logo=javascript&logoColor=black)](https://hammerjs.github.io/)
+[![Served by Nginx](https://img.shields.io/badge/Served_by-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://nginx.org/)
 
   <p>
     <sub>
@@ -123,5 +122,8 @@
 - **插件需求**：如果你有新的插件需求，欢迎在[讨论区](https://github.com/your-repo/shovel/discussions)提出
 
 ---
+📌 法律声明：本工具仅限合法授权测试使用，开发者不对滥用行为负责
+📧 商务合作：xxxxxx@hscsec.cn | 🌐 官网：https://www.hscsec.cn
+
 
 让我们一起打造更强大的Shovel插件生态！🚀
