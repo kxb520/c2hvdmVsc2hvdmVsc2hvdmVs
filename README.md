@@ -14,7 +14,7 @@
     <a href="#-核心优势">🚀 核心优势</a> •
     <a href="#-快速部署">⚡ 快速部署</a> •
     <a href="#-插件生态系统">🧩 插件生态</a> •
-    <a href="#-贡献指南">🤝 参与贡献</a>
+    <a href="#-欢迎贡献插件">🤝 参与贡献</a>
   </p>
 
 [![Built with React Router](https://img.shields.io/badge/Built_with-React_Router-FF4154?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
