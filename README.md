@@ -1,35 +1,30 @@
-<div>
-<a href="https://www.hscsec.cn">
-    <img
-      src="./img/favicon.ico"
-      alt="shovel"
-      height="64"
-    />
-</a>
-  <h3>
-    <b>
-      SHOVEL
-    </b>
-  </h3>
-  <a href="https://git.io/typing-svg"><img  src="https://readme-typing-svg.herokuapp.com?font=ZCOOL+KuaiLe&pause=1000&color=FFFFFF&width=435&lines=%E8%A7%A3%E6%94%BE%E5%8F%8C%E6%89%8B%EF%BC%8C%E4%B8%8D%E5%81%9A%E5%90%97%E5%96%BD" alt="Typing SVG" /></a>
-  <p>
+<div align="center">
+  <a href="https://www.hscsec.cn">
+    <img src="./img/favicon.ico" alt="shovel" height="80" />
+  </a>
+  <h1>
+    <b>SHOVEL</b>
+  </h1>
 
-![Made with React Router](https://img.shields.io/badge/Made%20with-React%20Router-FF4B2B?style=for-the-badge&logo=react-router&logoColor=white)
-![Made with Ant Design](https://img.shields.io/badge/Made%20with-Ant%20Design-0170FE?style=for-the-badge&logo=ant-design&logoColor=white)
-![Made with MapLibre GL JS](https://img.shields.io/badge/Made%20with-MapLibre%20GL%20JS-1A73E8?style=for-the-badge&logo=mapbox&logoColor=white)
-![Made with Hammer.js](https://img.shields.io/badge/Made%20with-Hammer.js-FCA121?style=for-the-badge&logo=javascript&logoColor=black)
-![Powered by Nginx](https://img.shields.io/badge/Powered%20by-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=%E8%A7%A3%E6%94%BE%E5%8F%8C%E6%89%8B%EF%BC%8C%E4%B8%8D%E5%81%9A%E5%90%97%E5%96%BD" alt="Typing SVG" /></a>
 
-  </p>
+
+[![Made with React Router](https://img.shields.io/badge/Made%20with-React%20Router-FF4B2B?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
+[![Made with Ant Design](https://img.shields.io/badge/Made%20with-Ant%20Design-0170FE?style=for-the-badge&logo=ant-design&logoColor=white)](https://ant.design/)
+[![Made with MapLibre GL JS](https://img.shields.io/badge/Made%20with-MapLibre%20GL%20JS-1A73E8?style=for-the-badge&logo=mapbox&logoColor=white)](https://maplibre.org/)
+[![Made with Hammer.js](https://img.shields.io/badge/Made%20with-Hammer.js-FCA121?style=for-the-badge&logo=javascript&logoColor=black)](https://hammerjs.github.io/)
+[![Powered by Nginx](https://img.shields.io/badge/Powered%20by-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://nginx.org/)
+
 
   <p>
     <sub>
-       power ❤︎ by
+      Powered with ❤️ by
       <a href="https://www.hscsec.cn">
-        hscsec
+        <b>HSC Security</b>
       </a>
     </sub>
   </p>
+</div>
 
   <br />
 
@@ -75,27 +70,50 @@ docker-compose -f standalone.yml up -d
 echo "控制台地址: http://$(curl -s ifconfig.me):8000"
 ```
 
-[![集成演示](https://img.shields.io/badge/-%E5%9C%A8%E7%BA%BF%E6%BC%94%E7%A4%BA%E7%B3%BB%E7%BB%9F-blue)](https://demo.shovel.com/)
-*默认管理员账号：[admin@shovel.local](mailto:admin@shovel.local) / shovel_2024*
 
 
 
-### 🧩 扩展生态
+### 🧩 插件生态系统
 
-我们提供以下扩展能力：
+#### 官方插件集（持续更新）
 
-| 模块类型     | 开发示例              | 应用场景         |
-| :----------- | :-------------------- | :--------------- |
-| 扫描插件     | GitHub监控插件        | 代码仓库资产发现 |
-| 解析器       | Shodan数据解析器      | 互联网暴露面分析 |
-| 处置动作     | Jira漏洞工单自动创建  | 漏洞闭环管理     |
-| 数据源适配器 | AWS Inspector数据对接 | 云原生资产治理   |
-ddd
-### 🌱 开源生态建设
+| 插件名称                | 版本号               | 功能描述                                                                 | 标签                                                                 |
+|-------------------------|----------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Fingerprinter**       | 1.0.0.250215130445   | 根据任务中的URL信息进行CMS指纹识别                                       | `info-collecting`, `collector`, `discovery`, `identification`, `CMS` |
+| **Nmapper**             | 1.0.0.250215130546   | 根据任务中的Host信息，使用Nmap扫描器进行端口探测并识别服务               | `info-collecting`, `collector`, `network`, `nmap`, `port`, `discovery`, `CIDR` |
+| **Fofa_Mapper**         | 1.0.0.250215130517   | 根据任务中的域名信息，使用FOFA进行信息收集                               | `info-collecting`, `collector`, `domain`, `FOFA`                     |
+| **Http_Port_Visitor**   | 1.0.0.250215130540   | 根据任务中的开放端口信息，进行相关Web服务的信息收集                      | `httpx`, `info-collecting`, `collector`, `ports`, `http`             |
+| **Company_Investigator**| 1.0.0.250215130521   | 根据任务中的公司/集团名进行ICP备案信息收集                               | `info-collecting`, `collector`, `company`, `enscan`, `unstable`      |
+| **Domain_Seeker**       | 1.0.0.250215130530   | 根据任务中的域名信息，进行子域名信息收集                                 | `info-collecting`, `collector`, `website`, `discovery`, `domain`, `DNS`, `amass` |
+| **Nuclei_Reactor**      | 1.0.0.250215130502   | 根据任务中的URL信息，使用Nuclei扫描器进行漏洞检测                        | `vulnerability`, `detection`, `nuclei`, `exploit`, `CVE`             |
 
-我们相信安全需要共同智慧：
+---
 
-- 代码提交遵循 [Commitizen规范](https://commitizen-tools.github.io/commitizen/)
-- 使用ESLint+Prettier维护代码风格一致性
+### 🛠️ 插件开发指南（即将发布）
 
-欢迎通过[讨论区](https://github.com/your-repo/shovel/discussions)参与架构设计讨论，年度贡献者将受邀加入核心开发者小组。
+我们正在编写详细的插件开发文档，包括：
+- **插件开发框架详解**：从零开始构建一个插件
+- **核心API参考手册**：了解Shovel提供的核心接口
+- **插件调试与测试**：如何高效调试和验证插件功能
+- **插件发布流程**：将你的插件贡献到官方或社区插件库
+
+---
+
+### 🌱 欢迎贡献插件
+
+我们鼓励开发者参与插件生态建设：
+1. **提交插件**：将你的插件代码提交到我们的[插件仓库](https://github.com/your-repo/shovel-plugins)
+2. **插件审核**：经过审核后，优质插件将被纳入官方插件库
+3. **社区奖励**：贡献者将获得专属荣誉标识
+
+---
+
+### 📢 温馨提示
+
+- **插件编写指南**：详细的插件开发Wiki将在近期发布，敬请期待！
+- **插件反馈**：如果你对现有插件有任何建议或发现问题，欢迎提交[Issue](https://github.com/your-repo/shovel/issues)
+- **插件需求**：如果你有新的插件需求，欢迎在[讨论区](https://github.com/your-repo/shovel/discussions)提出
+
+---
+
+让我们一起打造更强大的Shovel插件生态！🚀
