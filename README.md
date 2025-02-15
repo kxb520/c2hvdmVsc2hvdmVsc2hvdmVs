@@ -87,15 +87,15 @@ echo "控制台地址: http://$(curl -s ifconfig.me):8000"
 
 #### 官方插件集（持续更新）
 
-| 插件名称                | 版本号               | 功能描述                                                                 | 标签                                                                 |
-|-------------------------|----------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
-| **Fingerprinter**       | 1.0.0.250215130445   | 根据任务中的URL信息进行CMS指纹识别                                       | `info-collecting`, `collector`, `discovery`, `identification`, `CMS` |
-| **Nmapper**             | 1.0.0.250215130546   | 根据任务中的Host信息，使用Nmap扫描器进行端口探测并识别服务               | `info-collecting`, `collector`, `network`, `nmap`, `port`, `discovery`, `CIDR` |
-| **Fofa_Mapper**         | 1.0.0.250215130517   | 根据任务中的域名信息，使用FOFA进行信息收集                               | `info-collecting`, `collector`, `domain`, `FOFA`                     |
-| **Http_Port_Visitor**   | 1.0.0.250215130540   | 根据任务中的开放端口信息，进行相关Web服务的信息收集                      | `httpx`, `info-collecting`, `collector`, `ports`, `http`             |
-| **Company_Investigator**| 1.0.0.250215130521   | 根据任务中的公司/集团名进行ICP备案信息收集                               | `info-collecting`, `collector`, `company`, `enscan`, `unstable`      |
-| **Domain_Seeker**       | 1.0.0.250215130530   | 根据任务中的域名信息，进行子域名信息收集                                 | `info-collecting`, `collector`, `website`, `discovery`, `domain`, `DNS`, `amass` |
-| **Nuclei_Reactor**      | 1.0.0.250215130502   | 根据任务中的URL信息，使用Nuclei扫描器进行漏洞检测                        | `vulnerability`, `detection`, `nuclei`, `exploit`, `CVE`             |
+| 插件名称                | 功能描述                                                                 | 标签                                                                 |
+|-------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Fingerprinter**       | 根据任务中的URL信息进行CMS指纹识别                                       | `info-collecting`, `collector`, `discovery`, `identification`, `CMS` |
+| **Nmapper**             | 根据任务中的Host信息，使用Nmap扫描器进行端口探测并识别服务               | `info-collecting`, `collector`, `network`, `nmap`, `port`, `discovery`, `CIDR` |
+| **Fofa_Mapper**         | 根据任务中的域名信息，使用FOFA进行信息收集                               | `info-collecting`, `collector`, `domain`, `FOFA`                     |
+| **Http_Port_Visitor**   | 根据任务中的开放端口信息，进行相关Web服务的信息收集                      | `httpx`, `info-collecting`, `collector`, `ports`, `http`             |
+| **Company_Investigator**| 根据任务中的公司/集团名进行ICP备案信息收集                               | `info-collecting`, `collector`, `company`, `enscan`, `unstable`      |
+| **Domain_Seeker**       | 根据任务中的域名信息，进行子域名信息收集                                 | `info-collecting`, `collector`, `website`, `discovery`, `domain`, `DNS`, `amass` |
+| **Nuclei_Reactor**      | 根据任务中的URL信息，使用Nuclei扫描器进行漏洞检测                        | `vulnerability`, `detection`, `nuclei`, `exploit`, `CVE`             |
 
 ---
 
@@ -114,7 +114,7 @@ echo "控制台地址: http://$(curl -s ifconfig.me):8000"
 我们鼓励开发者参与插件生态建设：
 1. **提交插件**：将你的插件代码提交到我们的[插件仓库](https://github.com/your-repo/shovel-plugins)
 2. **插件审核**：经过审核后，优质插件将被纳入官方插件库
-3. **社区奖励**：贡献者将获得专属荣誉标识
+3. **社区奖励**：贡献者将获得专属荣誉标识和社区积分
 
 ---
 
