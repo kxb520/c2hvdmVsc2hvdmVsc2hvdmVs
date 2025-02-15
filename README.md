@@ -38,7 +38,7 @@
 
   <p>
     <img
-      src="./img/task.jpg"
+      src="./img/shovel.jpg"
       alt="shovel"
       height="500"
     />
