@@ -5,9 +5,17 @@
   <h1>
     <b>SHOVEL</b>
   </h1>
+  
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=%E8%A7%A3%E6%94%BE%E5%8F%8C%E6%89%8B%EF%BC%8C%E4%B8%8D%E5%81%9A%E5%90%97%E5%96%BD" alt="Typing SVG" /></a>
 
+<p align="center">
+    <a href="#-重新定义企业资产管理范式">🔍 概述</a> •
+    <a href="#-核心优势">🚀 核心优势</a> •
+    <a href="#-快速部署">⚡ 快速部署</a> •
+    <a href="#-插件生态系统">🧩 插件生态</a> •
+    <a href="#-贡献指南">🤝 参与贡献</a>
+  </p>
 
 [![Made with React Router](https://img.shields.io/badge/Made%20with-React%20Router-FF4B2B?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
 [![Made with Ant Design](https://img.shields.io/badge/Made%20with-Ant%20Design-0170FE?style=for-the-badge&logo=ant-design&logoColor=white)](https://ant.design/)
