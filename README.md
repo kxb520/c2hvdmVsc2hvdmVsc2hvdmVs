@@ -64,6 +64,7 @@
 #### 一键部署
 ``` 
 curl -o install.sh https://shovel.cyberspike.top/install.sh && bash install.sh
+#验证码需要关注"中龙技术"公众号回复"SHOVEL-ACTIVATE"获取
 ```
 
 
