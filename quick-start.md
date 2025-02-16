@@ -95,7 +95,7 @@ Shovel 创新地引入了资产组和策略，让工作更加高效便捷，所�
 
 1. **创建资产组和负责实体：** 将相关资产分组，并指定负责实体以便管理。
 
-   <img src="./img/start.png?raw=true" alt="shovel" style="width: 60%;">
+   <img src="./img/creat.png?raw=true" alt="shovel" style="width: 60%;">
 
 
    
