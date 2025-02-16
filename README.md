@@ -66,9 +66,11 @@
 curl -o install.sh https://shovel.cyberspike.top/install.sh && bash install.sh
 ```
 
-#### 快速开始
 
-[快速开始](./quick-start.md)
+[![快速开始](https://img.shields.io/badge/-快速开始-orange?style=for-the-badge&logo=rocket&logoColor=white&padding=8)](./quick-start.md)
+
+
+
 
 
 
