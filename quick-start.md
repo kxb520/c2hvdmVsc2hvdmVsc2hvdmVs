@@ -1,20 +1,18 @@
 
 
 
-```markdown
+
 # 🚀 Shovel 快速部署指南
 
 ## 环境准备
 ✅ **最低配置要求**  
 - 操作系统：Ubuntu 20.04+/CentOS 7+  
-- 内存：2GB+  
-- 磁盘：4GB+ 可用空间  
-- 网络：开放80/443端口  
+- 内存：8GB+  
+- 磁盘：40GB+ 可用空间  
+- 网络：开放80端口  
 
-​```bash
-# 验证磁盘空间（必须≥4GB）
-[ $(df -BG / | awk 'NR==2{print $4+0}') -ge 4 ] || { echo "错误：磁盘空间不足，至少需要4GB可用空间"; exit 1; }
 
+```
 # 检查端口开放状态
 sudo lsof -i :80
 ```
@@ -26,7 +24,7 @@ sudo lsof -i :80
 
 
 ```bash
-#####
+curl -o install.sh https://shovel.cyberspike.top/install.sh && bash install.sh
 ```
 
 🔄 **安装过程将自动完成以下操作**：  
@@ -56,7 +54,7 @@ sudo lsof -i :80
 
 ### 设置管理员密码
 
-![image-20250216180726824](C:\Users\kdx10\AppData\Roaming\Typora\typora-user-images\image-20250216180726824.png)
+<img src="./img/password.png?raw=true" alt="shovel" style="width: 50%;">
 
 ---
 
@@ -77,7 +75,6 @@ sudo lsof -i :80
 ```bash
 docker ps -a --format "table {{.ID}}\t{{.Names}}\t{{.Status}}"
 ```
-
 ---
 
 ## 🚨 常见问题排查
@@ -92,13 +89,14 @@ sudo lsof -i :80
 sudo systemctl stop xxx
 ```
 
-
+## 正式开始您的shovel之旅
 
 Shovel 创新地引入了资产组和策略，让工作更加高效便捷，所以让我们从新建资产组开始
 
 1. **创建资产组和负责实体：** 将相关资产分组，并指定负责实体以便管理。
 
-   ![image-20250216200516770](C:\Users\kdx10\AppData\Roaming\Typora\typora-user-images\image-20250216200516770.png)
+   <img src="./img/start.png?raw=true" alt="shovel" style="width: 60%;">
+
 
    
 
@@ -106,13 +104,13 @@ Shovel 创新地引入了资产组和策略，让工作更加高效便捷，所�
 
    
 
-   ![image-20250216201011438](C:\Users\kdx10\AppData\Roaming\Typora\typora-user-images\image-20250216201011438.png)
+   <img src="./img/strategy.png?raw=true" alt="shovel" style="width: 50%;">
 
    
 
 3. **开始任务：** 选择策略即可开始任务，也可手动导入和管理资产。
 
-   ![image-20250216201053020](C:\Users\kdx10\AppData\Roaming\Typora\typora-user-images\image-20250216201053020.png)
+   <img src="./img/start.png?raw=true" alt="shovel" style="width: 60%;">
 
    
 
@@ -120,5 +118,5 @@ Shovel 创新地引入了资产组和策略，让工作更加高效便捷，所�
 
 4. **定时任务（可选）：** 在任务菜单中创建定时任务，实现自动化操作。
 
-![image-20250216201107320](C:\Users\kdx10\AppData\Roaming\Typora\typora-user-images\image-20250216201107320.png)
+   <img src="./img/time.png?raw=true" alt="shovel" style="width: 50%;">
 
