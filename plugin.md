@@ -1,7 +1,7 @@
 
 <div align="center">
   <a href="https://github.com/XXXXX">
-    <img src="./img/shovel-plugin" alt="shovel-plugins" height="80" />
+    <img src="./img/shovel-plugin.png" alt="shovel-plugins" height="80" />
   </a>
   <h1>
     <b>SHOVEL PLUGINS</b>
